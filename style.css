@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+header {
+  background-color: #EC715F;
+  height: 70px;
+}
+
+.header-item {
+  width: 1024px;
+  display: flex;
+  margin: 0 auto;
+}
+
+.header-logo img{
+  height: 65px;
+}
+
+nav {
+  margin-left: auto;
+}
+
+.nav-list {
+  display: flex;
+  text-align: right;
+}
+
+.nav-item a {
+  color: #FAFAFA;
+  font-size: 16px;
+  margin: 0 30px;
+  line-height: 70px;
+}
