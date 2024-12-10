@@ -155,3 +155,54 @@ nav {
   color: #000000;
   margin: 0;
 }
+
+.profile {
+  background-color: #ECEFF1;
+}
+
+.pr-box {
+  width: 1024px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 90px 0;
+}
+
+.pr-content {
+  display: flex;
+  margin-top: 30px;
+}
+
+.pr-image {
+  width: 512px;
+  text-align: center;
+}
+
+.pr-image img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.pr-item {
+  width: 512px;
+  text-align: start;
+}
+
+.pr-item-title {
+  font-size: 20px;
+  margin-bottom: 5px;
+  color: #000000;
+}
+
+.pr-item-text {
+  font-size: 16px;
+  color: #000000;
+}
+
+.pr-item-text:nth-child(2) {
+  margin-bottom: 20px;
+}
+
+.pr-item-text:nth-child(3) {
+  margin: 0;
+}
