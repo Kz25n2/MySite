@@ -206,3 +206,36 @@ nav {
 .pr-item-text:nth-child(3) {
   margin: 0;
 }
+
+.contact {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 90px 0;
+}
+
+.ct-content {
+  display: flex;
+}
+
+.ct-content-item {
+  width: 400px;
+}
+
+.ct-item-title {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.ct-content-item a {
+  color: #000000;
+}
+
+.ct-content-item a i {
+  font-size: 50px;
+  margin-right: 20px;
+}
+
+.ct-content-item a:nth-child(3) i {
+  margin-right: 0;
+}
